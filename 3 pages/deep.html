@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jigar Sable - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #ffffff;
+            overflow-x: hidden;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 60px;
+            background-color: #fff;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin: 0 15px;
+            color: #000;
+            font-weight: 500;
+        }
+
+        nav a.active {
+            color: #4b00ff;
+            border-bottom: 2px solid #4b00ff;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 60px;
+        }
+
+        .text-section {
+            flex: 1;
+        }
+
+        .text-section h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .text-section h1 span {
+            color: orange;
+        }
+
+        .text-section p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #1f1fff;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            margin-bottom: 30px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: black;
+            font-size: 22px;
+            margin-right: 15px;
+        }
+
+        .image-section {
+            flex: 1;
+            text-align: center;
+        }
+
+        .image-section img {
+            max-width: 300px;
+            border-radius: 50%;
+            background-color: #fcb103;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <i class="fa-brands fa-js"></i>
+            Jigar
+        </div>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Skills</a>
+            <a href="#">Education</a>
+            <a href="#">Work</a>
+            <a href="#">Experience</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="text-section">
+            <h1>Hi There,<br> I'm Jigar <span>Sable</span></h1>
+            <p>I Am Into <span style="color:#880808">Web Develop|</span></p>
+            <a href="#" class="btn">About Me <i class="fa-solid fa-arrow-down"></i></a>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-dev"></i></a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="/mnt/data/3d72134a-8516-470b-89b7-9754f8faaa01.png" alt="avatar">
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hire me file</title>
+    <!-- <link rel="stylesheet" href="contact.css"> -->
+     <style>
+        body{
+    font-family: Arial, sans-serif;
+    background-color: #b1adad7e;
+    color: #333;
+    margin: 10px;
+    padding: 10px;
+}
+span a{
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+span a:hover{
+    color: #00bcd4;
+}
+h1{
+    padding: 10px;
+    text-decoration: underline;
+}
+header{
+    padding: 10px;
+    margin: 10px;
+    background-color: #d2f6ff83;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(193, 245, 252, 0.788);
+    border: 1px solid #95eaf5d5;
+}
+section h2{
+    text-decoration: underline;
+}
+section{
+    height: 100%;
+    margin: 10px;
+    padding: 3px;
+    border-left: #00bcd4 solid 5px;
+    background-color: #d4f3f863;
+}
+section a{
+    padding: 15px;
+    text-decoration: none;
+    color: #000000;
+}
+section a:hover{
+    color: #00bcd4;
+}
+.contact-info{
+    padding: 10px;
+}
+.social-media{
+    padding: 15px;
+}
+input{
+    padding-left: 10px;
+    padding: 8px;
+    margin-left: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #b3eff3;
+}
+textarea{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #b3eff3;
+}
+button{
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: #05b8cfb2;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor:pointer;
+    border-radius: 5px;
+    font-size: 1em;
+}
+button:hover{
+    background-color: #5be0f1;
+    color: #fff;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+
+     </style>
+</head>
+
+<body>
+    <span><a href="index.html">&#8592;</a></span>
+    <header>
+        <h1>Contact Me</h1>
+        <p>If you would like to get in touch, please reach out via email or connect with me on social media.</p>
+    </header>
+    <main>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p>If you have any questions or would like to discuss potential projects, feel free to reach out!</p>
+            Contact me at:095827548
+            <br>
+            whatsapp me at: 09586078
+            <br>
+            mail me at:hashir@gmail.com
+        </section>
+        <section class="social-media">
+            <h2>You can also find me on social media:</h2>
+
+            <a href="https://www.twitter.com/yourprofile">Twitter</a>
+            <a href="https://www.instagram.com/yourprofile">Instagram</a>
+            <a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a>
+            <a href="https://www.facebook.com/yourprofile">Facebook</a>
+        </section>
+        <form action="submit_form.php" method="post">
+            <!-- <label for="name">Name:</label> -->
+            <input type="text" id="name" name="name" placeholder="Name" required>
+            <br>
+            <!-- <label for="email">Email:</label> -->
+            <input type="email" id="email" name="email" placeholder="Mail" required>
+            <br>
+            <!-- <label for="message">Message:</label> -->
+            <textarea id="message" name="message" rows="4" placeholder="message" required></textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>

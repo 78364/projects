@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio web</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+          General Styles 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header & Navigation */
+header {
+    background-color: #222;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00bcd4;
+}
+
+/* Main Sections */
+main {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.bio h1 {
+    font-size: 2.5em;
+    line-height: 1.2;
+}
+
+.bio small {
+    font-size: 0.6em;
+    font-weight: 400;
+    color: #777;
+}
+
+/* Portfolio Section */
+.portfolio {
+    margin-top: 40px;
+}
+
+.portfolio h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* Hire Section */
+#hire {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#hire a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    color: white;
+    background-color: #0077cc;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#hire a:hover {
+    background-color: #005fa3;
+}
+
+/* Asides */
+aside {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    border-left: 5px solid #0077cc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+aside h3 {
+    margin-top: 0;
+    color: #0077cc;
+}
+
+/* Article */
+article.software {
+    background-color: #d6f9fd;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 900px;
+    border-radius: 5px;
+    border: 1px solid #65d7e6;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+/* Responsive */
+
+
+
+
+
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .bio h1 {
+        font-size: 2em;
+    }
+
+    .portfolio h2 {
+        font-size: 1.5em;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav id="nav">
+            <a href="index2.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bio">
+            <h1><big>Hey,</big>
+                <br>
+             Hashir
+                here,<br>
+                I am
+                <small>Web Developer</small>
+            </h1>
+        </section>
+
+        <section class="portfolio">
+            <h2>Here my Skills</h2>
+            <p>I am Hashir. I am a Full Stack Developer with experience in building responsive and dynamic web
+                applications. I specialize in both front-end and back-end development, ensuring seamless user
+                experiences and robust functionality.</p>
+        </section>
+
+        <section id="hire">
+            <h1 class="hire me"><big><a href="index2.html">HIRE ME</a></big></h1>
+
+            <a href="https://www.facebook.com/yourprofile">Facebook</a>
+            <a href="https://www.twitter.com/yourprofile">Twitter</a>
+            <a href="https://www.instagram.com/yourprofile">Instagram</a>
+            <a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a>
+        </section>
+    </main>
+    <aside class="fullstack">
+        <h3>Full Stack Developer</h3>
+        <p>As a Full Stack Developer, I have a strong foundation in both front-end and back-end technologies. I am
+            proficient in HTML, CSS, JavaScript, and various frameworks such as React and Node.js. I am also
+            experienced in working with databases like MongoDB and MySQL.</p>
+    </aside>
+
+    <aside class="datascience">
+        <h3>Data Science</h3>
+        <p>As a Data Scientist, I analyze and interpret complex data to help businesses make informed decisions. I
+            have expertise in machine learning, statistical analysis, and data visualization tools such as Python,
+            R, and Tableau.</p>
+    </aside>
+
+    <article class="software">
+        <h2>SOFTWARE HOUSE</h2>
+        <p>Welcome to my software house! We specialize in delivering high-quality software solutions tailored to meet
+            your business needs. From web development to data analysis, our team is dedicated to providing innovative
+            and efficient services to help you achieve your goals.</p>
+    </article>
+
+    <aside id="link-1">
+        <a href="index2.html">Hire me</a>
+    </aside>
+
+    <aside id="link-2">
+        <!-- this link dont have a page -->
+        <a href="#software.html">Apply to Software House</a>
+    </aside>
+
+    <footer>
+        <p>&copy; 2023 Hashir. All rights reserved.</p>
+
+    </footer>
+</body>
+
+</html>

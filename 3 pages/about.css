@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    background-color: rgba(255, 198, 123, 0.253);
+}
+
+
+.tagline {
+    margin: 20px;
+    padding: 10px;
+    font-size: xx-large;
+}
+
+span {
+    color: orange;
+}
+
+nav {
+    padding: 30px;
+}
+
+/* .fixednav{
+    justify-content: space-between;
+    background-color: rgba(255, 170, 59, 0.795);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+
+}
+
+
+.fixednav ul li{
+    list-style: none;
+    padding: 15px;
+    display: inline;
+}
+
+.fixednav ul{
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+    padding: 5px;
+}
+
+.fixednav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+fixednac a:hover{
+    color: rgb(5, 22, 255);
+    text-decoration: underline; 
+} */
+
+.fixednav {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(255, 188, 94);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.fixednav ul {
+    margin: 10px;
+    padding: 5px;
+    padding-right: 10px;
+    /* font-size: 18px; */
+    list-style: none;
+    display: space-between;
+    display: flex;
+    /* font-weight: 650; */
+    gap: 20px;
+}
+
+.fixednav ul li {
+    list-style: none;
+    padding: 15px;
+    display: inline;
+}
+
+.fixednav ul li a {
+    margin: 7px;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    font-size: large;
+}
+
+.fixednav ul li a:hover {
+    color: rgb(255, 236, 191);
+    border-bottom: 2px solid rgb(255, 236, 191);
+}
+
+header p a {
+    /* padding: 7px; */
+    /* margin: 10px; */
+    position: relative;
+    left: 8px;
+    top: -7px;
+    text-decoration: none;
+    font-size: xxx-large;
+    font-weight: 900;
+}
+
+header a {
+    color: black;
+    padding: 7px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: xxx-large;
+    font-weight: 900;
+}
+
+header a:hover {
+    color: rgb(255, 236, 191);
+}
+
+
+.container {
+    margin: 20px;
+    padding: 20px;
+}
+
+.history {
+    /* margin: 10px; */
+    box-shadow: 0 0 10px rgba(175, 175, 175, 0.263);
+}
+
+.history h2 {
+    color: rgb(221, 61, 3);
+    font-size: xx-large;
+    border-bottom: 2px solid #660606;
+    margin: 20px;
+    padding: 15px;
+}
+
+.history p {
+    color: #660606;
+    margin: 20px;
+    padding: 10px;
+    /* font-size: large; */
+}
+
+.acheviment {
+    margin: 20px;
+    padding: 20px;
+}
+
+.coderofyear {
+    background-color: rgba(255, 198, 123, 0.075);
+    color: rgb(121, 33, 2);
+    border-left: 4px solid rgb(196, 128, 2);
+    margin: 10px;
+    padding: 15px;
+}
+
+.coderofyear h2 {
+    text-decoration: underline;
+    /* border-bottom: 3px solid rgb(179, 179, 179); */
+    color: rgb(179, 179, 179);
+    font-size: xx-large;
+    /* margin: 20px; */
+    /* padding: 15px; */
+}
+
+.mrcode {
+    background-color: rgba(255, 198, 123, 0.075);
+    color: rgb(121, 33, 2);
+    border-left: 4px solid rgb(196, 128, 2);
+    margin: 10px;
+    padding: 15px;
+}
+
+.mrcode h2 {
+    text-decoration: underline;
+    /* border-bottom: 3px solid rgb(179, 179, 179); */
+    color: rgb(179, 179, 179);
+    font-size: xx-large;
+    /* margin: 20px; */
+    /* padding: 15px; */
+}
+
+.contact {
+    margin: 20px;
+    padding: 40px;
+}
+
+.contact p {
+    text-align: center;
+    color: rgb(221, 61, 3);
+    font-size: xx-large;
+    border-bottom: 2px solid #660606;
+    margin: 20px;
+    padding: 15px;
+}
+
+.contact a {
+    color: black;
+    margin: 30px;
+    position: relative;
+    left: 42vw;
+    /* padding-left: 300px; */
+    font-size: x-large;
+    font-weight: bold;
+    /* background-color: rgb(255, 68, 0); */
+    /* color: white; */
+    text-decoration: none;
+    justify-content: center;
+}
+
+.contact a:hover {
+    color: rgb(226, 158, 0);
+    /* text-decoration: underline; */
+    border-bottom: 2px solid rgb(226, 158, 0);
+}
